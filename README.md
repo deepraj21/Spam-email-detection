@@ -99,3 +99,7 @@ In today's interconnected world, email remains one of the primary communication 
    - Goal: Validate the system's effectiveness through rigorous testing methodologies, including cross-validation techniques and parameter tuning. This step ensures the robustness and reliability of the Suspicious Email Detection system under different scenarios.
 
 By achieving these objectives, the project aims to equip individuals with the skills and knowledge needed to address the evolving challenges posed by email-based cyber threats. The combination of understanding threats, acquiring and processing data, selecting appropriate algorithms, designing effective models, and rigorous evaluation contributes to the development of a robust and reliable email threat detection system.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
