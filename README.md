@@ -1,4 +1,4 @@
-## School of Computer Science <br> KIIT <br> Course: Computer Networks (IT-3009) <br> Project Topic: Suspicious Email Detection
+# School of Computer Science <br> KIIT <br> Course: Computer Networks (IT-3009) <br> Project Topic: Suspicious Email Detection
 
 <img align="right" height="300px" src="https://cdn3d.iconscout.com/3d/premium/thumb/spam-8603066-6804337.png?f=webp">
 
@@ -99,6 +99,12 @@ In today's interconnected world, email remains one of the primary communication 
    - Goal: Validate the system's effectiveness through rigorous testing methodologies, including cross-validation techniques and parameter tuning. This step ensures the robustness and reliability of the Suspicious Email Detection system under different scenarios.
 
 By achieving these objectives, the project aims to equip individuals with the skills and knowledge needed to address the evolving challenges posed by email-based cyber threats. The combination of understanding threats, acquiring and processing data, selecting appropriate algorithms, designing effective models, and rigorous evaluation contributes to the development of a robust and reliable email threat detection system.
+
+## Webapp Preview
+
+<img src="webapp_preview/img1.png">
+<img src="webapp_preview/img2.png">
+<img src="webapp_preview/img3.png">
 
 ## License
 
