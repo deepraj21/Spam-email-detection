@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Spam email detection</title>
+  <link rel="icon" href="https://cdn3d.iconscout.com/3d/premium/thumb/email-notification-4036270-3342587.png?f=webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>📨 Spam Detection in Email</h1>
+<form method="POST" action="{{ url_for('register') }}">
+  <div class="form-item">
+    <label>Username</label>
+    <div class="input-wrapper">
+      <input type="text" id="username" name="username" required placeholder="Username"/>
+    </div>
+  </div>
+  <div class="form-item">
+    <label>Password</label>
+    <div class="input-wrapper">
+      <input placeholder="Password" type="password" id="password" name="password" required/>
+      <button type="submit" id="eyeball">
+        <div class="eye"></div>
+      </button>
+      <div id="beam"></div>
+    </div>
+  </div>
+  <button type="submit" id="submit">Sign Up</button>
+</form>
+<h2>Already have an Account? <a href="{{ url_for('login') }}">Login</a></h2>
+<!-- partial -->
+  <script  src="../static/js/script.js"></script>
+
+</body>
+</html>

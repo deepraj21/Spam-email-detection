@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Spam email detection</title>
+   <link rel="icon" href="https://cdn3d.iconscout.com/3d/premium/thumb/email-notification-4036270-3342587.png?f=webp">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+   <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+
+<body>
+   <!-- partial:index.partial.html -->
+   <h1>📨 Spam Detection in Email</h1>
+   <form action="{{url_for('home')}}" method=POST>
+      <div class="form-item">
+         <label>Enter the content of your E-mail</label>
+         <div class="input-wrapper">
+            <textarea name=comment id=comment rows=5 cols=50
+               placeholder="Copy your content from anywhere then press Ctrl+V to paste the content here."></textarea>
+         </div>
+      </div>
+     
+      <button type=submit id="submit">Predict</button>
+   </form>
+   <div class=jumbotron> {% if prediction == 0 %} <h1 class=" text-danger text-center display-4"><b>It’s a Spam
+            mail! 📮 ☠️ ❎</b></h1>
+      <hr class=my-4> {% elif prediction == 1 %} <h1 class="text-success text-center display-4"><b>It’s a Ham
+            mail! 📬 🙂 ✅</b></h1> {% endif %}
+   </div>
+   <!-- partial -->
+   <script src="../static/js/script.js"></script>
+
+</body>
+
+</html>
