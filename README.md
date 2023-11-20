@@ -1,5 +1,7 @@
 # School of Computer Science <br> KIIT <br> Course: Computer Networks (IT-3009) <br> Project Topic: Suspicious Email Detection
 
+## Team Members: <br> Deepraj Bera   21051302 <br> Abhishek Mallick   21051706 <br> Soumyabrata Samanta   21051436 <br> Abhrajit Das   21051026
+
 <img align="right" height="300px" src="https://cdn3d.iconscout.com/3d/premium/thumb/spam-8603066-6804337.png?f=webp">
 
 **Introduction:** <br>
